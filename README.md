@@ -6,12 +6,12 @@ Two ways this repo ships, from the same `src/`:
 
 | Target | How |
 |---|---|
-| **GitHub Pages** (`madelinben.github.io/paddle-score/`) | `pnpm build:demo` builds `demo/` into `docs/` (Pages source: `main` / `/docs`) |
+| **GitHub Pages** (`madelinben.github.io/paddle-tracker/`) | `pnpm build:demo` builds `demo/` into `docs/` (Pages source: `main` / `/docs`) |
 | **get-out-there** (Cloudflare) | imported as workspace package `@get-out-there/paddle` (`PaddleApp`, `./styles.css`) |
 
 ```bash
 pnpm install
-pnpm dev          # demo at http://localhost:3100/paddle-score/
+pnpm dev          # demo at http://localhost:3100/paddle-tracker/
 pnpm test         # logic unit tests
 pnpm test:e2e     # Playwright
 pnpm build:demo   # static site -> docs/
